@@ -2,6 +2,24 @@
 <div>
 <label>Ticket Generator</label>
 <h2>Technical Support</h2>
+<input type="text" id="name" name="name" value="" placeholder="name" required >
+<input type="text" id="email" name="email" value="" placeholder="email" required>
+<label for="problem">Select the problem:</label>
+<select name="problem" id="problem" name="problem" value="" required>
+    <option value="hardware">Hardware</option>
+    <option value="software">Software</option>
+    <option value="others">Others</option>
+
+</select>
+<label for="textarea">Describe the problem:</label>
+<input type="textarea" id="textarea" name="textarea" rows="6" cols="30">
+
+<button id="submit" type="submit" class="formsubmit">Submit</button>
+<button id="cancel" type="cancel" class="cancel">Cancel</button>
+<button id="reset" type="reset" class="reset">Reset</button>
+
+
+
 
 
 </div>
