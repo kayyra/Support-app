@@ -16,8 +16,7 @@ export class FormularyComponent {
       name: ['', [Validators.required]],
       email: ['', [Validators.required]],
       problem: ['', [Validators.required]],
-      describe: ['', [Validators.required]],
-
+      describe: ['', [Validators.required]]
 
     });
   }
@@ -26,4 +25,5 @@ ngOnInit() {  }
 saveData() {
   console.log(this.myForm.value);
 }
+
 }
